@@ -1,19 +1,11 @@
 from flask import Flask, render_template
-from flask_bootstrap import Bootstrap
+#from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
-bootstrap = Bootstrap(app)
+#bootstrap = Bootstrap(app)
 
 @app.route("/")
 def home():
-    return render_template('index.html')
-
-@app.route("/g")
-def g():
-    return render_template('index2.html')
-
-@app.route("/q")
-def q():
     return render_template('index3.html')
 
 
