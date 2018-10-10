@@ -11,13 +11,13 @@ static/js/tsDefinitions/
 *.d.ts
 
 
-# static/js/phaser.js
-# static/js/phaser.min.js
+static/js/phaser.js
+static/js/phaser.min.js
 
-*phaser.js
-*phaser.min.js
+# *phaser.js
+# *phaser.min.js
 
-#extra html files used during development
-*base.html
-*index.html
-*index2.html
+# #extra html files used during development
+# *base.html
+# *index.html
+# *index2.html
